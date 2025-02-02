@@ -1,0 +1,22 @@
+@import '../../helpers/media-queries';
+
+.container {
+  padding: 10px;
+  background-color: red;
+
+  @include small-screen {
+    padding: 5px;
+  }
+
+  @include medium-screen {
+    padding: 15px;
+  }
+
+  @include large-screen {
+    padding: 20px;
+  }
+
+  @include extra-large-screen {
+    padding: 25px;
+  }
+}
